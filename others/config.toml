@@ -1,0 +1,20 @@
+
+#Postgres Config
+[postgres]
+        database = "hellofresh"
+        table = "recipes"
+        username = "hellofresh"
+        password = "hellofresh"
+        host = "172.18.0.5"
+        port = "5432"
+
+[keys]
+	PrivateKeyPath = "others/keys/app.rsa"
+	PublicKeyPath = "others/keys/app.rsa.pub"
+
+[logConfig]
+	Log = "INFO"
+	LogDirectory = "others/logs"
+	LogFilePrefix = "recipe_log"
+	EnableLogTrace = false
+

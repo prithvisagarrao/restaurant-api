@@ -1,0 +1,3 @@
+INFO|2018-07-23T03:00:08.983981833Z|recipeController.go:291|Running query to rate recipe
+INFO|2018-07-23T03:00:09.021231639Z|postgres.go:106|Running insert query on postgres
+ERROR|2018-07-23T03:00:09.106217333Z|postgres.go:118|Postgres insert query failed

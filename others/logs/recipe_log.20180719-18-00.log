@@ -1,0 +1,73 @@
+ERROR|2018-07-19T18:13:18.136886705Z|main.go:34|Error in ListenAndServe listen tcp :8080: bind: address already in use
+ERROR|2018-07-19T18:14:23.3446583Z|main.go:34|Error in ListenAndServe listen tcp :8080: bind: address already in use
+ERROR|2018-07-19T18:17:49.169649439Z|main.go:34|Error in ListenAndServe listen tcp :8080: bind: address already in use
+INFO|2018-07-19T18:33:00.239805142Z|recipeController.go:308|Running query to select recipe
+INFO|2018-07-19T18:33:00.345238051Z|postgres.go:150|Running select query on postgres
+ERROR|2018-07-19T18:33:00.348660252Z|postgres.go:153|ErrorType : QUERY_ERROR, Postgres query failed with error : pq: column "test9" does not exist
+INFO|2018-07-19T18:34:17.954903751Z|recipeController.go:308|Running query to select recipe
+INFO|2018-07-19T18:34:17.955141418Z|postgres.go:150|Running select query on postgres
+INFO|2018-07-19T18:34:17.957738837Z|postgres.go:212|Select query successful on postgres
+INFO|2018-07-19T18:43:48.743668126Z|recipeController.go:308|Running query to select recipe
+INFO|2018-07-19T18:43:48.743968763Z|postgres.go:150|Running select query on postgres
+INFO|2018-07-19T18:43:48.747253891Z|postgres.go:212|Select query successful on postgres
+INFO|2018-07-19T18:45:22.79183599Z|postgres.go:150|Running select query on postgres
+INFO|2018-07-19T18:45:22.795291675Z|postgres.go:212|Select query successful on postgres
+INFO|2018-07-19T18:45:22.873975108Z|models.go:135|Running query to create user
+INFO|2018-07-19T18:45:22.874023576Z|postgres.go:106|Running insert query on postgres
+INFO|2018-07-19T18:45:23.081024836Z|postgres.go:125|Postgres insert query success
+INFO|2018-07-19T18:45:28.114715095Z|postgres.go:150|Running select query on postgres
+INFO|2018-07-19T18:45:28.124675916Z|postgres.go:212|Select query successful on postgres
+ERROR|2018-07-19T18:45:28.124717807Z|models.go:114|User credentials failed
+ERROR|2018-07-19T18:45:28.124739911Z|util.go:22|Error in unmarshalling dbAbs data, error: unexpected end of JSON input
+INFO|2018-07-19T18:45:43.47315559Z|postgres.go:150|Running select query on postgres
+INFO|2018-07-19T18:45:43.475913856Z|postgres.go:212|Select query successful on postgres
+INFO|2018-07-19T18:45:43.555424185Z|models.go:193|Login successful
+INFO|2018-07-19T18:45:43.556342446Z|userController.go:64|Token generated
+INFO|2018-07-19T18:46:29.80174659Z|recipeController.go:63|Running query to create user
+INFO|2018-07-19T18:46:29.801803656Z|postgres.go:106|Running insert query on postgres
+INFO|2018-07-19T18:46:29.940851204Z|postgres.go:125|Postgres insert query success
+INFO|2018-07-19T18:46:46.536430898Z|recipeController.go:90|Running query to list all recipes
+INFO|2018-07-19T18:46:46.536522178Z|postgres.go:150|Running select query on postgres
+INFO|2018-07-19T18:46:46.56802894Z|postgres.go:212|Select query successful on postgres
+INFO|2018-07-19T18:47:00.617458368Z|recipeController.go:120|Running query to select recipe
+INFO|2018-07-19T18:47:00.617508462Z|postgres.go:150|Running select query on postgres
+INFO|2018-07-19T18:47:00.624445518Z|postgres.go:212|Select query successful on postgres
+ERROR|2018-07-19T18:47:58.224911495Z|auth.go:111|Invalid authorization token
+ERROR|2018-07-19T18:47:58.248378036Z|util.go:22|Error in unmarshalling dbAbs data, error: unexpected end of JSON input
+INFO|2018-07-19T18:48:05.821626959Z|postgres.go:150|Running select query on postgres
+INFO|2018-07-19T18:48:05.82440249Z|postgres.go:212|Select query successful on postgres
+INFO|2018-07-19T18:48:05.902390947Z|models.go:193|Login successful
+INFO|2018-07-19T18:48:05.903197455Z|userController.go:64|Token generated
+ERROR|2018-07-19T18:48:48.558187123Z|recipeController.go:213|Invalid data sent
+ERROR|2018-07-19T18:48:48.558239105Z|util.go:22|Error in unmarshalling dbAbs data, error: unexpected end of JSON input
+INFO|2018-07-19T18:49:19.185845974Z|postgres.go:251|Update query successful
+ERROR|2018-07-19T18:49:19.185970452Z|util.go:22|Error in unmarshalling dbAbs data, error: unexpected end of JSON input
+ERROR|2018-07-19T18:50:08.727356964Z|recipeController.go:264|Invalid data sent
+INFO|2018-07-19T18:50:08.727419427Z|recipeController.go:291|Running query to rate recipe
+INFO|2018-07-19T18:50:08.727453624Z|postgres.go:106|Running insert query on postgres
+INFO|2018-07-19T18:50:08.822815351Z|postgres.go:125|Postgres insert query success
+ERROR|2018-07-19T18:50:47.497550241Z|auth.go:111|Invalid authorization token
+ERROR|2018-07-19T18:50:47.497607807Z|util.go:22|Error in unmarshalling dbAbs data, error: unexpected end of JSON input
+INFO|2018-07-19T18:51:01.318451647Z|recipeController.go:151|Running query to delete ratings first
+INFO|2018-07-19T18:51:01.349017708Z|postgres.go:296|Delete query successful
+INFO|2018-07-19T18:51:01.349062896Z|recipeController.go:166|Ratings for recipe id: 103 deleted successfully
+INFO|2018-07-19T18:51:01.349072889Z|recipeController.go:169|Running query to delete recipe
+INFO|2018-07-19T18:51:01.360063003Z|postgres.go:296|Delete query successful
+INFO|2018-07-19T18:51:45.901261343Z|postgres.go:251|Update query successful
+ERROR|2018-07-19T18:51:45.901331762Z|util.go:22|Error in unmarshalling dbAbs data, error: unexpected end of JSON input
+INFO|2018-07-19T18:52:00.3645567Z|postgres.go:251|Update query successful
+ERROR|2018-07-19T18:52:00.364614525Z|util.go:22|Error in unmarshalling dbAbs data, error: unexpected end of JSON input
+ERROR|2018-07-19T18:52:32.228482573Z|auth.go:111|Invalid authorization token
+ERROR|2018-07-19T18:52:32.228568829Z|util.go:22|Error in unmarshalling dbAbs data, error: unexpected end of JSON input
+INFO|2018-07-19T18:52:40.090677396Z|postgres.go:150|Running select query on postgres
+INFO|2018-07-19T18:52:40.093270657Z|postgres.go:212|Select query successful on postgres
+INFO|2018-07-19T18:52:40.171855027Z|models.go:193|Login successful
+INFO|2018-07-19T18:52:40.172660163Z|userController.go:64|Token generated
+INFO|2018-07-19T18:52:59.583095514Z|recipeController.go:151|Running query to delete ratings first
+INFO|2018-07-19T18:52:59.585426486Z|postgres.go:302|Delete query successful
+INFO|2018-07-19T18:52:59.585466082Z|recipeController.go:166|Ratings for recipe id: 103 deleted successfully
+INFO|2018-07-19T18:52:59.585476242Z|recipeController.go:169|Running query to delete recipe
+INFO|2018-07-19T18:52:59.587686331Z|postgres.go:302|Delete query successful
+INFO|2018-07-19T18:53:18.061669557Z|recipeController.go:308|Running query to select recipe
+INFO|2018-07-19T18:53:18.061750926Z|postgres.go:150|Running select query on postgres
+INFO|2018-07-19T18:53:18.064318755Z|postgres.go:212|Select query successful on postgres

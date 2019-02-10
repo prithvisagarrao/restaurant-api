@@ -1,0 +1,4 @@
+INFO|2018-07-19T11:51:47.482322773Z|postgres.go:157|Running select query on postgres
+INFO|2018-07-19T11:51:48.031897814Z|postgres.go:220|Select query successful on postgres
+INFO|2018-07-19T11:51:48.135436079Z|models.go:198|Login successful
+INFO|2018-07-19T11:51:48.136430619Z|userController.go:64|Token generated
