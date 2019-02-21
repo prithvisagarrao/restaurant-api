@@ -6,9 +6,9 @@
     - Postgres connection details:
         - host: `postgres`
         - port: `5432`
-        - dbname: `hellofresh`
-        - username: `hellofresh`
-        - password: `hellofresh`
+        - dbname: `recipes_dev`
+        - username: `recipes_usr`
+        - password: `recipes_usr`
 - Use the provided `docker-compose.yml` file in the root of this repository. You are free to add more containers to this if you like.
 
 
