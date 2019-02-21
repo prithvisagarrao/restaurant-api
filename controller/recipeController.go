@@ -2,8 +2,8 @@ package controller
 
 import (
 	"net/http"
-	"github.com/hellofreshdevtests/prithvisagarrao-api-test/models"
-	"github.com/hellofreshdevtests/prithvisagarrao-api-test/utils"
+	"github.com/prithvisagarrao/restaurant-api/models"
+	"github.com/prithvisagarrao/restaurant-api/utils"
 	"github.com/gorilla/mux"
 	"fmt"
 	"strconv"

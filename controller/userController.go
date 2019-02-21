@@ -2,10 +2,10 @@ package controller
 
 import (
 	"net/http"
-	"github.com/hellofreshdevtests/prithvisagarrao-api-test/models"
+	"github.com/prithvisagarrao/restaurant-api/models"
 	"encoding/json"
-	"github.com/hellofreshdevtests/prithvisagarrao-api-test/utils"
-	"github.com/hellofreshdevtests/prithvisagarrao-api-test/auth"
+	"github.com/prithvisagarrao/restaurant-api/utils"
+	"github.com/prithvisagarrao/restaurant-api/auth"
 	"github.com/antigloss/go/logger"
 )
 

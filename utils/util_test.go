@@ -1,11 +1,9 @@
 package utils
 
 import (
-	"net/http"
-	"reflect"
 	"testing"
 
-	"github.com/hellofreshdevtests/prithvisagarrao-api-test/models"
+	"github.com/prithvisagarrao/restaurant-api/models"
 )
 
 func TestPrepareResponseFromDB(t *testing.T) {

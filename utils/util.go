@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"github.com/hellofreshdevtests/prithvisagarrao-api-test/models"
+	"github.com/prithvisagarrao/restaurant-api/models"
 	"encoding/json"
 	"fmt"
 	"net/http"

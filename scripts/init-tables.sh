@@ -1,3 +1,3 @@
 #!/bin/sh
 
-psql -p 5432 -U hellofresh hellofresh < hf.sql
+psql -p 5432 -d recipes_dev -U recipes_usr < rp.sql

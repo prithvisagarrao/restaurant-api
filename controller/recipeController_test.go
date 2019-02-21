@@ -10,7 +10,7 @@ import (
 	"errors"
 	"strconv"
 	"bytes"
-	"github.com/hellofreshdevtests/prithvisagarrao-api-test/config"
+	"github.com/prithvisagarrao/restaurant-api/config"
 )
 
 func TestGetRecipe(t *testing.T) {

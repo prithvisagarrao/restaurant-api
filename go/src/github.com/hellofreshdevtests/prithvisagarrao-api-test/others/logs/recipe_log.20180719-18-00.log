@@ -1,0 +1,10 @@
+ERROR|2018-07-19T18:22:24.468223056Z|auth.go:30|Error in reading key file open go/src/github.com/hellofreshdevtests/prithvisagarrao-api-test/others/keys/app.rsa: no such file or directory
+ERROR|2018-07-19T18:22:24.468409724Z|auth.go:35|Error in parsing private key file Invalid Key: Key must be PEM encoded PKCS1 or PKCS8 private key
+ERROR|2018-07-19T18:22:24.468423285Z|auth.go:40|Error in reading key file open go/src/github.com/hellofreshdevtests/prithvisagarrao-api-test/others/keys/app.rsa.pub: no such file or directory
+ERROR|2018-07-19T18:22:24.468430409Z|auth.go:45|Error in parsing public key file Invalid Key: Key must be PEM encoded PKCS1 or PKCS8 private key
+ERROR|2018-07-19T18:22:24.469325239Z|main.go:34|Error in ListenAndServe listen tcp :8080: bind: address already in use
+ERROR|2018-07-19T18:24:03.670968621Z|auth.go:30|Error in reading key file open go/src/github.com/hellofreshdevtests/prithvisagarrao-api-test/others/keys/app.rsa: no such file or directory
+ERROR|2018-07-19T18:24:03.671131077Z|auth.go:35|Error in parsing private key file Invalid Key: Key must be PEM encoded PKCS1 or PKCS8 private key
+ERROR|2018-07-19T18:24:03.671151696Z|auth.go:40|Error in reading key file open go/src/github.com/hellofreshdevtests/prithvisagarrao-api-test/others/keys/app.rsa.pub: no such file or directory
+ERROR|2018-07-19T18:24:03.671161435Z|auth.go:45|Error in parsing public key file Invalid Key: Key must be PEM encoded PKCS1 or PKCS8 private key
+ERROR|2018-07-19T18:24:03.671941772Z|main.go:34|Error in ListenAndServe listen tcp :8080: bind: address already in use

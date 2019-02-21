@@ -3,9 +3,9 @@ package auth
 import (
 	"net/http"
 	"strings"
-	"github.com/hellofreshdevtests/prithvisagarrao-api-test/models"
-	"github.com/hellofreshdevtests/prithvisagarrao-api-test/utils"
-	"github.com/hellofreshdevtests/prithvisagarrao-api-test/config"
+	"github.com/prithvisagarrao/restaurant-api/models"
+	"github.com/prithvisagarrao/restaurant-api/utils"
+	"github.com/prithvisagarrao/restaurant-api/config"
 	"github.com/dgrijalva/jwt-go"
 	"context"
 	"crypto/rsa"

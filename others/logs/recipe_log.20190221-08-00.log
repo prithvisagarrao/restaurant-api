@@ -1,0 +1,8 @@
+INFO|2019-02-21T08:01:09.524933795Z|recipeController.go:90|Running query to list all recipes
+INFO|2019-02-21T08:01:09.525442859Z|postgres.go:150|Running select query on postgres
+INFO|2019-02-21T08:04:44.464857475Z|recipeController.go:90|Running query to list all recipes
+INFO|2019-02-21T08:04:44.465123401Z|postgres.go:150|Running select query on postgres
+ERROR|2019-02-21T08:06:54.844692346Z|postgres.go:153|ErrorType : QUERY_ERROR, Postgres query failed with error : dial tcp 172.27.0.2:5432: getsockopt: connection timed out
+INFO|2019-02-21T08:08:30.863358687Z|recipeController.go:90|Running query to list all recipes
+INFO|2019-02-21T08:08:30.863604374Z|postgres.go:150|Running select query on postgres
+INFO|2019-02-21T08:08:30.868981506Z|postgres.go:212|Select query successful on postgres

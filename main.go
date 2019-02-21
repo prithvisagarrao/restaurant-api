@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"github.com/antigloss/go/logger"
 	"github.com/gorilla/mux"
-	"github.com/hellofreshdevtests/prithvisagarrao-api-test/auth"
-	"github.com/hellofreshdevtests/prithvisagarrao-api-test/config"
-	"github.com/hellofreshdevtests/prithvisagarrao-api-test/controller"
+	"github.com/prithvisagarrao/restaurant-api/auth"
+	"github.com/prithvisagarrao/restaurant-api/config"
+	"github.com/prithvisagarrao/restaurant-api/controller"
 	"net/http"
 )
 

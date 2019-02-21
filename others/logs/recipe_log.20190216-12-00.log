@@ -1,0 +1,28 @@
+ERROR|2019-02-16T12:50:38.593440393Z|models.go:67|Password of length of minimum 6 characters is required
+ERROR|2019-02-16T12:50:38.593706869Z|models.go:114|User credentials failed
+ERROR|2019-02-16T12:50:38.593730965Z|util.go:22|Error in unmarshalling dbAbs data, error: unexpected end of JSON input
+INFO|2019-02-16T12:50:46.520756209Z|postgres.go:150|Running select query on postgres
+INFO|2019-02-16T12:58:12.756401396Z|postgres.go:150|Running select query on postgres
+INFO|2019-02-16T12:58:12.759943926Z|postgres.go:212|Select query successful on postgres
+INFO|2019-02-16T12:58:12.853310357Z|models.go:135|Running query to create user
+INFO|2019-02-16T12:58:12.853352352Z|postgres.go:106|Running insert query on postgres
+INFO|2019-02-16T12:58:12.874655255Z|postgres.go:125|Postgres insert query success
+INFO|2019-02-16T13:02:46.757844065Z|postgres.go:150|Running select query on postgres
+INFO|2019-02-16T13:02:46.760376963Z|postgres.go:212|Select query successful on postgres
+INFO|2019-02-16T13:02:46.854163818Z|models.go:193|Login successful
+INFO|2019-02-16T13:02:46.855246166Z|userController.go:64|Token generated
+ERROR|2019-02-16T13:08:14.308173481Z|auth.go:90|Invalid authorization token
+ERROR|2019-02-16T13:08:14.308252678Z|util.go:22|Error in unmarshalling dbAbs data, error: unexpected end of JSON input
+INFO|2019-02-16T13:08:19.980438186Z|postgres.go:150|Running select query on postgres
+INFO|2019-02-16T13:08:19.982944223Z|postgres.go:212|Select query successful on postgres
+INFO|2019-02-16T13:08:20.07416026Z|models.go:193|Login successful
+INFO|2019-02-16T13:08:20.07511112Z|userController.go:64|Token generated
+ERROR|2019-02-16T13:08:40.245442543Z|auth.go:90|Invalid authorization token
+ERROR|2019-02-16T13:08:40.245501145Z|util.go:22|Error in unmarshalling dbAbs data, error: unexpected end of JSON input
+ERROR|2019-02-16T13:09:54.007682154Z|util.go:64|Error in parsing JSON body in POST -- Error : invalid character '"' after object key:value pair
+INFO|2019-02-16T13:09:54.007732102Z|recipeController.go:63|Running query to create user
+INFO|2019-02-16T13:09:54.007757546Z|postgres.go:106|Running insert query on postgres
+ERROR|2019-02-16T13:09:54.010694884Z|postgres.go:118|Postgres insert query failed
+INFO|2019-02-16T13:11:40.787662242Z|recipeController.go:63|Running query to create user
+INFO|2019-02-16T13:11:40.787722575Z|postgres.go:106|Running insert query on postgres
+INFO|2019-02-16T13:11:40.797663106Z|postgres.go:125|Postgres insert query success

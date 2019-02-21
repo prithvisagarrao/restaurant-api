@@ -3,7 +3,7 @@ package models
 import (
 	"fmt"
 	"strings"
-	"github.com/hellofreshdevtests/prithvisagarrao-api-test/config"
+	"github.com/prithvisagarrao/restaurant-api/config"
 	"database/sql"
 	_ "github.com/lib/pq"
 	"os"

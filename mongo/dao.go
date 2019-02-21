@@ -6,7 +6,7 @@ import (
 	//. "github.com/mlabouardy/movies-restapi/models"
 	mgo "gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
-	"github.com/hellofreshdevtests/prithvisagarrao-api-test/models"
+	"github.com/prithvisagarrao/restaurant-api/models"
 )
 
 type MoviesDAO struct {

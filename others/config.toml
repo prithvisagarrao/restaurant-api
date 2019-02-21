@@ -1,11 +1,11 @@
 
 #Postgres Config
 [postgres]
-        database = "hellofresh"
+        database = "recipes_dev"
         table = "recipes"
-        username = "hellofresh"
-        password = "hellofresh"
-        host = "172.18.0.5"
+        username = "recipes_usr"
+        password = "recipes_usr"
+        host = "172.26.0.2"
         port = "5432"
 
 [keys]

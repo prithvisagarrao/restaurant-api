@@ -1,0 +1,13 @@
+INFO|2019-02-21T07:30:49.84092807Z|recipeController.go:90|Running query to list all recipes
+INFO|2019-02-21T07:30:49.841438947Z|postgres.go:150|Running select query on postgres
+ERROR|2019-02-21T07:30:49.85154037Z|postgres.go:153|ErrorType : QUERY_ERROR, Postgres query failed with error : pq: password authentication failed for user "recipes"
+INFO|2019-02-21T07:31:09.852941729Z|recipeController.go:90|Running query to list all recipes
+INFO|2019-02-21T07:31:09.852999265Z|postgres.go:150|Running select query on postgres
+ERROR|2019-02-21T07:31:09.854813937Z|postgres.go:153|ErrorType : QUERY_ERROR, Postgres query failed with error : pq: password authentication failed for user "recipes"
+INFO|2019-02-21T07:54:06.104127803Z|recipeController.go:90|Running query to list all recipes
+INFO|2019-02-21T07:54:06.104393849Z|postgres.go:150|Running select query on postgres
+INFO|2019-02-21T07:55:26.524806686Z|recipeController.go:90|Running query to list all recipes
+INFO|2019-02-21T07:55:26.524904287Z|postgres.go:150|Running select query on postgres
+ERROR|2019-02-21T07:55:27.497103329Z|main.go:34|Error in ListenAndServe listen tcp :8080: bind: address already in use
+INFO|2019-02-21T07:56:45.7606048Z|recipeController.go:90|Running query to list all recipes
+INFO|2019-02-21T07:56:45.760858402Z|postgres.go:150|Running select query on postgres

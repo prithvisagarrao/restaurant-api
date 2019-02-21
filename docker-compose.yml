@@ -37,11 +37,11 @@ services:
             - "80:8080"
         links:
             - postgres
-            - mongodb
-            - redis
+              # - mongodb
+              # - redis
         command: /sbin/init
         volumes: 
-            - /root/go/src/github.com/hellofreshdevtests/:/go/src/github.com/hellofreshdevtests/
+            - /root/go/src/github.com/prithvisagarrao/restaurant-api/:/go/src/github.com/prithvisagarrao/restaurant-api
         environment:
             DEBUG: 'true'
             PORT: '8080'
@@ -49,16 +49,16 @@ services:
     postgres:
         image: onjin/alpine-postgres:9.5
         restart: unless-stopped
-        command: chmod +x /scripts/init-tables.sh;/scripts/./init-tables.sh
+        # command: chmod +x /scripts/init-tables.sh;/scripts/./init-tables.sh
         volumes:
             - ./scripts:/scripts
         ports:
             - "5432:5432"
         environment:
             LC_ALL: C.UTF-8
-            POSTGRES_USER: hellofresh
-            POSTGRES_PASSWORD: hellofresh
-            POSTGRES_DB: hellofresh
+            POSTGRES_USER: recipes_usr
+            POSTGRES_PASSWORD: recipes_usr
+            POSTGRES_DB: recipes_dev
 
     #mongodb:
         #image: mvertes/alpine-mongo:3.2.3
