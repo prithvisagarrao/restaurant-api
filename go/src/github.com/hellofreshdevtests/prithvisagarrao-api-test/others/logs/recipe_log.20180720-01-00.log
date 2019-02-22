@@ -1,4 +1,0 @@
-ERROR|2018-07-20T01:24:58.253856816+07:00|auth.go:30|Error in reading key file open go/src/github.com/hellofreshdevtests/prithvisagarrao-api-test/others/keys/app.rsa: no such file or directory
-ERROR|2018-07-20T01:24:58.253998003+07:00|auth.go:35|Error in parsing private key file Invalid Key: Key must be PEM encoded PKCS1 or PKCS8 private key
-ERROR|2018-07-20T01:24:58.254020269+07:00|auth.go:40|Error in reading key file open go/src/github.com/hellofreshdevtests/prithvisagarrao-api-test/others/keys/app.rsa.pub: no such file or directory
-ERROR|2018-07-20T01:24:58.254035031+07:00|auth.go:45|Error in parsing public key file Invalid Key: Key must be PEM encoded PKCS1 or PKCS8 private key
