@@ -1,6 +1,6 @@
 # Restaurant APIs
 
-### Technology
+### Technology
 
 - Go 1.8
     - Postgres connection details:
