@@ -72,7 +72,9 @@ var JWTAuthentication = func(next http.Handler) http.Handler {
 			return
 		}
 
-
+		// same code written twice
+		//ToDo make a fail dbAbs and pass it over
+		//maybe based on code populate the message string
 		tokenHeader := r.Header.Get("Authorization")
 		if tokenHeader == ""{
 			logger.Error("Missing authorization token")

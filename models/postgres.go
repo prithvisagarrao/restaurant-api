@@ -333,5 +333,13 @@ func GetDbConn() (dbConn *sql.DB, err error){
 	}
 
 	dbConn, err = sql.Open("postgres", dbInfo)
+	logger.Error("Error %v",err)
+
+	err= dbConn.Ping()
+
+	if err != nil{
+		logger.Error("Error connecting to the database: %v",err.Error())
+	}
+
 	return
 }

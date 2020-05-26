@@ -36,7 +36,8 @@ type postgres struct {
 	Host string
 	Port string
 }
-
+//this is a gloabl variable
+//ToDo understand how config initialization and use takes place in multithreaded env
 var Conf Config
 
 //InitConfig reads the configuration of the application from the config.toml file

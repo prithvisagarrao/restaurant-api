@@ -41,14 +41,14 @@ services:
               # - redis
         command: /sbin/init
         volumes: 
-            - /root/go/src/github.com/prithvisagarrao/restaurant-api/:/go/src/github.com/prithvisagarrao/restaurant-api
+            - /home/psrao/go/src/github.com/prithvisagarrao/restaurant-api/:/go/src/github.com/prithvisagarrao/restaurant-api
         environment:
             DEBUG: 'true'
             PORT: '8080'
 
     postgres:
-        image: onjin/alpine-postgres:9.5
-        restart: unless-stopped
+        image: postgres
+        #restart: unless-stopped
         # command: chmod +x /scripts/init-tables.sh;/scripts/./init-tables.sh
         volumes:
             - ./scripts:/scripts
